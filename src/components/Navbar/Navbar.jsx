@@ -3,9 +3,18 @@ import "./Navbar.css"
 
 const Navbar = () => {
     return (
-        <div>
-            
-        </div>
+        <nav className="container navbar">
+            <h1 className="logo"><i class="ri-logout-circle-r-line"></i> lostdaffy</h1>
+            <ul className="links">
+                <li>Home</li>
+                <li>Services</li>
+                <li>Works</li>
+                <li>Resume</li>
+                <li>Skills</li>
+                <li>Contact</li>
+            </ul>
+            <a href="" className="btn-1">Hire Me!</a>
+        </nav>
     )
 }
 

@@ -1,0 +1,40 @@
+.navbar {
+    width: 100%;
+    padding: 20px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    justify-items: center;
+}
+
+.logo {
+    font-size: 28px;
+    font-weight: 600;
+    letter-spacing: 3px;
+    color: #ffffff;
+    align-self: center;
+}
+.logo i{
+    color: #7d5fff;
+    align-self: center;
+}
+
+.links {
+    display: flex;
+    align-self: center;
+    gap: 2rem;
+}
+
+.links li {
+    list-style: none;
+    letter-spacing: 1px;
+    font-size: 18px;
+    cursor: pointer;
+    color: #ffffff;
+    transition: all ease-in-out 300ms;
+}
+
+.links li:hover {
+    color: #7c5fffd2;
+}

@@ -1,0 +1,35 @@
+@import url("https://fonts.googleapis.com/css2?family=Syne:wght@400;500;600&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Syne", sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    padding-left: 10%;
+    padding-right: 10%;
+    overflow: hidden;
+}
+
+.btn-1 {
+    padding: 15px 30px;
+    background: #7d5fff;
+    border-radius: 30px;
+    color: #fff;
+    font-size: 16px;
+    letter-spacing: 1px;
+    font-weight: 500;
+    border: 2px solid #7d5fff;
+    transition: all ease-in 300ms;
+}
+
+.btn-1:hover {
+    background: transparent;
+    border: 2px solid #7d5fff;
+}
