@@ -7,9 +7,9 @@ const Hero = () => {
         <div className="hero">
             <div className="container wrapper">
                 <div className="text-part">
-                    <span>I am Satya</span>
-                    <h1>Front-End & React Developer</h1>
-                    <p>I break down complex user experinece problems to create integritiy focussed solutions that connect billions of people</p>
+                    <span>I am Front-End Developer</span>
+                    <h1>Better Design For Your Digital Products</h1>
+                    <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of</p>
                     <a href="" className="btn-1">Download CV <i class="ri-download-2-line"></i></a>
                 </div>
                 <div className="img-part">

@@ -1,11 +1,10 @@
 .hero {
     width: 100%;
     height: 100vh;
-    background: linear-gradient(#4343431a, #4343431a), url(/src/assets/hero-bg.png);
+    background: linear-gradient(#0f0715dc, #0f0715dc), url(../../assets/hero-bg.png);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    background-attachment: fixed;
     display: flex;
     align-items: center;
 }
@@ -21,13 +20,13 @@
 }
 
 .text-part span {
-    font-size: 36px;
-    font-weight: 700;
+    font-size: 30px;
     color: #ffffff;
+    font-family: "Style Script", cursive;
 }
 
 .text-part h1 {
-    font-size: 5vw;
+    font-size: 4.5vw;
     font-weight: 700;
     color: #7d5fff;
     padding: 1rem 0;
@@ -35,9 +34,7 @@
 
 .text-part p {
     color: #ffffff;
-    font-size: 22px;
-    width: 70%;
-    letter-spacing: 1px;
+    font-size: 20px;
     margin-bottom: 4rem;
 }
 
@@ -51,6 +48,7 @@
 }
 
 .img-part img {
+    box-shadow: #7c5fff7a 0px 10px 50px;
     width: 100%;
     border-radius: 50px;
     /* border: 1px solid #7d5fff; */

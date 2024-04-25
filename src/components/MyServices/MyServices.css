@@ -1,0 +1,75 @@
+.MyServices {
+    width: 100%;
+    height: 100vh;
+    background: #000000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card {
+    display: flex;
+    color: #fff;
+    padding: 1rem 0;
+    transition: all ease-in-out 300ms;
+    border-bottom: 1px solid #7c5fff83;
+    padding: 2rem 1rem;
+    justify-content: space-between;
+    transition: all cubic-bezier(.29,.1,.34,.99) 1s;
+}
+
+.card:hover {
+    background: #7d5fff;
+}
+
+.card:hover > .serial span,
+.card:hover > .link-icon i {
+    color: #ffffff;
+}
+
+.serial {
+    max-width: 10%;
+    align-self: center;
+    text-align: center;
+}
+
+.serial span {
+    font-size: 25px;
+    font-weight: 600;
+    color: #7d5fff;
+}
+
+.domain {
+    max-width: 30%;
+    width: 100%;
+}
+
+.domain h2 {
+    font-size: 35px;
+    font-weight: 700;
+}
+
+.domain h3 {
+    font-size: 2rem;
+}
+
+.domain-about {
+    max-width: 50%;
+    width: 100%;
+}
+
+.domain-about p {
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.link-icon {
+    max-width: 10%;
+    width: 100%;
+    text-align: center;
+}
+
+.link-icon i {
+    font-size: 35px;
+    color: #7d5fff;
+}

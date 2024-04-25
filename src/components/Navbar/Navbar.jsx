@@ -8,9 +8,9 @@ const Navbar = () => {
             <ul className="links">
                 <li>Home</li>
                 <li>Services</li>
-                <li>Works</li>
-                <li>Resume</li>
                 <li>Skills</li>
+                <li>Resume</li>
+                <li>Works</li>
                 <li>Contact</li>
             </ul>
             <a href="" className="btn-1">Hire Me!</a>

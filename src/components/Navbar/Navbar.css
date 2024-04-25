@@ -15,7 +15,8 @@
     color: #ffffff;
     align-self: center;
 }
-.logo i{
+
+.logo i {
     color: #7d5fff;
     align-self: center;
 }
@@ -29,7 +30,7 @@
 .links li {
     list-style: none;
     letter-spacing: 1px;
-    font-size: 18px;
+    font-size: 16px;
     cursor: pointer;
     color: #ffffff;
     transition: all ease-in-out 300ms;

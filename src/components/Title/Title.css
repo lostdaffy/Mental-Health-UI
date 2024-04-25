@@ -1,0 +1,19 @@
+.title {
+    padding: 0px 0 30px;
+}
+
+.title h2 {
+    font-size: 38px;
+    letter-spacing: 2px;
+    font-weight: 500;
+    color: #7d5fff;
+    font-family: "Style Script", cursive;
+}
+
+.title p {
+    padding-top: 5px;
+    width: 30%;
+    font-size: 30px;
+    color: #ffffff;
+    font-weight: 300;
+}
